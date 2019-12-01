@@ -9,6 +9,10 @@ import java.util.Scanner; // Se importa la librería Scanner
 /**
  *
  * @author José Valentín Zarate Carreño
+ * @version  01/12/2019
+ */
+
+/** Declaracion de la clase Contrasenia 
  */
 public class Contrasenia {
 
@@ -19,13 +23,15 @@ public class Contrasenia {
 
     } // cierre del main
 
+    
+    
     public void contrasenia() { // se inicia el método
         Scanner sc = new Scanner(System.in); //Declaración del Scanner para leer el teclado
 
         String password = "ITO"; // se crea una variable de tipo string que alamacenará la contraseña
         int i = 0; // creamos una variable para iterar en nuestro bucle
         while (i < 3) { // itera 3 veces
-            System.out.println("Ingrese la contraseña: ");  // inserciónn del dato 
+            System.out.println("Ingrese la contraseña: "); // inserciónn del dato 
             String dato = sc.nextLine(); // Variable String que guarda lo que se lee en teclado
             if (password.equalsIgnoreCase(dato)) { // Compara si el String introducido es igual a la contraseña
                 System.out.println("¡contraseña correcta!"); // Si es igual, imprime una afirmación
