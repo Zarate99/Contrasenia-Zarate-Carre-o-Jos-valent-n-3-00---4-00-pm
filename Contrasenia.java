@@ -24,7 +24,8 @@ public class Contrasenia {
     } // cierre del main
 
     
-    
+    /** Metodo contrasenia 
+     */
     public void contrasenia() { // se inicia el método
         Scanner sc = new Scanner(System.in); //Declaración del Scanner para leer el teclado
 
